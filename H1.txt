@@ -1,0 +1,25 @@
+1. Write a Python program to print your name on the screen.
+
+2. Add Two Numbers
+
+3.Write a Python program that asks for your age and prints how old you will be next year.
+
+4. Write a Python program that asks for your favorite color and prints a message with it.
+
+5. Write a Python program that asks for a number and prints its multiplication table from 1 to 10.
+
+6. Write a Python program that asks for a number and tells if it is even or odd.
+
+7. Write a Python program that asks for two numbers and then asks the user which operation (addition, subtraction, multiplication, division) to perform, then prints the result.
+
+8. Write a Python program that prints the numbers from 1 to 10 using a loop.
+
+9. Write a Python program that asks for a word and then prints that word 5 times.
+
+10. Write a Python program that asks for your favorite animal and prints a sentence with it.
+
+11. Write a Python program that asks for a word and prints the word in reverse.
+
+12. Write a Python program that calculates the sum of all numbers from 1 to 10.
+
+13. Write a program to print numbers in the reverse order.
