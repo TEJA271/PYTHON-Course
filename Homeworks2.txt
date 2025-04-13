@@ -1,0 +1,99 @@
+### **Python Questions**
+
+1. What is Python?
+
+Python is a verry easy to learn coding program
+
+2. What are the key features of Python?
+
+ Works on Windows, Mac, Linux, etc.
+ Supports different programming styles.
+ Write code once and run it anywhere (Windows, macOS, Linux).
+Lots of developers use Python, so it’s easy
+
+3. How do you write a comment in Python?
+
+In Python, comments start with #
+
+4. What are Python's data types?
+
+int – Integer numbers 
+float – Decimal numbers
+str – String
+bool – Only True or False
+
+5. What is the difference between `list` and `tuple`?
+
+A list is like a container that can change. You can add, remove, or modify items in it.
+A tuple is like a container that cannot change once it’s created. It is fixed and unchangeable
+
+6. How do you define a function in Python?
+
+In Python, you define a function using the def keyword, followed by the function name, a pair of parentheses (), and a colon :. Then, you write the steps (code) inside the function, indented on the next lines
+
+7. What is a variable in Python?
+
+A variable in Python is like a container where you store data or values.
+
+8. What is the difference between `==` and `is`?
+
+`==` checks if the values are the same.
+`is` checks if two variables point to the same object
+
+9. How does a `for` loop work in Python?
+
+A for loop in Python is used to repeat a set of actions 
+
+10. How do you handle exceptions in Python?
+
+In Python, exception handling means catching errors so the program doesn’t crash. 
+
+11.Would you like multiple choice format, interview-style Q&A, or practice exercises next?
+
+I would prefer multiple choice format
+
+12.How do you store your age in a variable?
+
+give a variable and give = sign to the number of age
+
+13. What will this code print?
+name = "Alice"
+print("Hi " + name)
+
+The code will show "Hi Alice" 
+
+14. What does a loop do?
+
+A loop repeats a set of actions multiple times.
+
+15. Write syntax of for loop.
+
+A for loop goes through each item in a sequence 
+
+16. What does a loop do?
+
+A loop repeats a set of actions multiple times.
+
+17. Write syntax of for loop.
+
+You start with the word "for," followed by a variable name 
+
+18. What is an if statement for?
+
+An if statement is used to make decisions in your code. 
+
+19. Write syntax for if condition.
+
+An if condition checks if something is true. If it is, the program does something. 
+
+20. What is wrong with this code?
+print("Swathi)
+
+"Swathi" needs both an opening and closing qualens
+
+
+
+
+
+
+
