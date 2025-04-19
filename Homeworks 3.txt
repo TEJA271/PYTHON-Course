@@ -1,0 +1,103 @@
+1. Write a program to find the Factorial of a number
+To calculate the factorial of a number, multiply all integers from 1 up to that number. For example, for 5, the factorial is 5 × 4 × 3 × 2 × 1 = 120.
+
+2. Even Numbers from 1 to 20
+To find all even numbers between 1 and 20, check each number and see if it is divisible by 2 (e.g., 2, 4, 6, ..., 20).
+
+3. Odd Numbers from 1 to 20
+To find all odd numbers between 1 and 20, check each number and see if it leaves a remainder of 1 when divided by 2 (e.g., 1, 3, 5, ..., 19).
+
+4. Reverse Counting
+Start with the input number and decrement by 1 in each iteration, printing the number until you reach 1.
+
+5. Medium Level Python while Loop Example
+Use a loop to print the squares of numbers from 1 up to a given number. For example, squares of 1, 2, 3, etc., are 1, 4, 9, and so on.
+
+6. Multiplication Table
+To print the multiplication table for a given number, multiply that number by all integers from 1 to 10 and print the result for each multiplication.
+
+7. Factorial Calculation using while loop
+To calculate the factorial using a while loop, start with 1 and multiply it by all integers up to the input number, one by one.
+
+8. Reverse a Number
+To reverse a number, repeatedly extract the last digit by dividing the number by 10, and then rebuild the number by adding the digit to the reversed number.
+
+9. Sum of Digits
+To calculate the sum of digits, repeatedly extract the last digit of the number and add it to a total. Continue until the number becomes 0.
+
+10. Check for Palindrome Number
+To check if a number is a palindrome, reverse the number and compare it to the original number. If they are the same, it is a palindrome.
+
+11. Print Numbers in Words
+Convert each digit of a number to its corresponding word (e.g., 1 → "One", 2 → "Two") and print the words for all digits.
+
+12. Count Frequency of Digits
+To count the frequency of each digit in a number, check each digit and keep a count of how many times it appears.
+
+13. Print First 10 Natural Numbers
+Simply print the numbers 1 to 10 as these are the first ten natural numbers.
+
+14. Capital City Quiz
+Ask the user if Sydney is the capital of Australia. If they answer "yes," print that it's wrong and tell them Canberra is the capital. If they answer "no," print that it's correct.
+
+15. Calculate Sum of Numbers from 1 to N
+Sum all integers from 1 up to the given number. For example, the sum from 1 to 5 is 1 + 2 + 3 + 4 + 5 = 15.
+
+16. Print Multiplication Table of a Given Number
+Print the multiplication table for the given number by multiplying it by all integers from 1 to 10.
+
+17. Display Numbers from a List Using a Loop
+Print each element from a list, one by one, using a loop.
+
+18. Count the Total Number of Digits in a Number
+To count the digits, divide the number by 10 repeatedly until it becomes 0, and count how many times you can divide it.
+
+19. Check If a Character Is in a String
+Check if the given character exists in the string and print a message indicating whether it was found or not.
+
+20. Print List in Reverse Order Using a Loop
+To print a list in reverse order, loop through the list starting from the last element to the first.
+
+21. Display Numbers from -10 to -1 Using for Loop
+Use a loop to display numbers from -10 to -1 in the reverse order.
+
+22. Display a Message “Done” After the Successful Execution of the for Loop
+After completing a for loop, print the message "Done" to indicate that the loop has finished executing.
+
+23. Print All Prime Numbers within a Range
+To find prime numbers, check each number in the range and see if it has no divisors other than 1 and itself. Print those numbers.
+
+25. Find the Factorial of a Given Number
+Similar to question 1, calculate the factorial by multiplying all numbers from 1 to the given number.
+
+26. Reverse an Integer Number
+To reverse an integer, repeatedly extract the last digit and build the reversed number.
+
+27. Print Elements from a Given List Present at Odd Index Positions
+Print the elements from a list that are located at odd index positions (e.g., 1, 3, 5, etc.).
+
+28. Calculate the Cube of All Numbers from 1 to a Given Number
+To calculate the cube of numbers from 1 up to a given number, multiply each number by itself three times.
+
+29. Find the Sum of a Series of a Number up to N Terms
+To find the sum of a series, add the numbers from 1 to N. This can be a simple arithmetic sum.
+
+32. Print the Alternate Numbers Pattern
+Print numbers alternately in a pattern, for example, 1, 3, 5, 7, 9, etc.
+
+33. Count Letter Frequency in a String
+To count how many times the letter 'e' appears in a string, loop through the string and check for occurrences of the letter 'e'.
+
+34. Find the Largest and Smallest Digit in a Number
+To find the largest and smallest digit, check each digit in the number and keep track of the largest and smallest values.
+
+35. Write a Program that Asks the User for a Year and Replies with Either "Leap Year" or "Not a Leap Year"
+To check if a year is a leap year, verify the following:
+
+year = int(input("Enter a year: "))
+
+if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
+    print(f"{year} is a Leap Year")
+else:
+    print(f"{year} is Not a Leap Year")
+
