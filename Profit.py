@@ -6,3 +6,4 @@ if(sale_amount>actual_cost):
     print(profit)
 else:
     print("No profit")
+    

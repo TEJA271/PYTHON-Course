@@ -1,4 +1,3 @@
-#upper part
 Rowsize = int(input("Enter the number of rows : "))
 if Rowsize%2 ==0:
     halfDiamRow = int (Rowsize/2)

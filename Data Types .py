@@ -41,4 +41,3 @@ print(type(z))
 d="Navatej"
 print(d)
 print(type(d))
-
