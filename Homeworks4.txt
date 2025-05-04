@@ -1,0 +1,210 @@
+1.Write a program that will ask the user for their height in centimeters. Use the input() built-in function to do this. If the height is more than 185 centimeters, execute the program.
+
+height = int(input("Please enter your height in centimeters: "))
+
+if height > 185:
+    print("You are taller than 185 cm!")
+
+
+
+
+
+
+2.Write a program that will ask the user the following question:
+Is Sydney the capital of Australia?
+If the user answers y, print: Wrong! Canberra is the capital!
+If the user answers n, print: Correct!
+If the user answers anything else, print: I do not understand your answer!
+
+answer = input("Is Sydney the capital of Australia? (y/n): ")
+
+if answer.lower() == 'y':
+    print("Wrong! Canberra is the capital!")
+elif answer.lower() == 'n':
+    print("Correct!")
+else:
+    print("I do not understand your answer!")
+
+
+
+
+
+3.Write a program to ask the user to do the following:
+Provide the name of a country that does not contain any lowercase a or e letters. (Use the prompt: The country is: )
+If the user provides a correct string (i.e. one with no a or e inside it), print: You won... unless you made this name up!
+Otherwise, print: You lost!
+
+
+country = input("The country is: ")
+
+# Check if the name contains 'a' or 'e'
+if 'a' in country or 'e' in country:
+    print("You lost!")
+else:
+    print("You won... unless you made this name up!")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. A leap year is a year that consists of 366 (not 365) days. It occurs roughly every four years. More specifically, a year is considered leap if it is either divisible by 4 but not by 100 or it is divisible by 400.
+Write a program that asks the user for a year and replies with either leap year or not a leap year.
+
+
+
+
+
+
+year = int(input("Enter a year: "))
+
+# Check leap year conditions
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print("Leap year")
+else:
+    print("Not a leap year")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.Write a program that asks for a positive integer and prints all of its divisors, one by one, on separate lines in ascending order.A divisor is a number that divides a particular number with no remainder. For example, the divisors of 4 are 1, 2, and 4.
+
+number = int(input("Enter a positive integer: "))
+
+# Check if the input is positive
+if number <= 0:
+    print("That is not a positive integer.")
+else:
+    print(f"Divisors of {number}:")
+    for i in range(1, number + 1):
+        if number % i == 0:
+            print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+6.Write a Python function that accepts a string and counts the number of upper and lower case letters.
+Sample String : 'The quick Brow Fox'
+Expected Output :
+No. of Upper case characters : 3
+No. of Lower case Characters : 12
+
+
+
+
+
+def count_case_letters(s):
+    upper_count = sum(1 for char in s if char.isupper())
+    lower_count = sum(1 for char in s if char.islower())
+    
+    print("No. of Upper case characters :", upper_count)
+    print("No. of Lower case Characters :", lower_count)
+
+sample_string = 'The quick Brow Fox'
+count_case_letters(sample_string)
+
+
+
+
+
+
+
+
+
+
+
+7.Write a Python function to check whether a number is "Perfect" or not.
+
+
+
+def is_perfect_number(n):
+    return n == sum(i for i in range(1, n) if n % i == 0)
+
+number = int(input("Enter a number: "))
+print(f"{number} is a Perfect number." if is_perfect_number(number) else f"{number} is not a Perfect number.")
+
+
+
+
+
+
+
+
+
+
+
+8.Write a Python function to find the maximum of three numbers.
+
+def find_max(a, b, c):
+    return max(a, b, c)
+
+# Sample usage
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
+
+print("The maximum number is:", find_max(num1, num2, num3))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9.Write a Python program to reverse a string
+
+
+print(input("Enter a string: ")[::-1])
+
+
+
+
+
+
+
+10.Write a Python function to check whether a number falls within a given range
+
+# Check if a number is within a range
+num = int(input("Enter a number: "))
+start_range = int(input("Enter the start of the range: "))
+end_range = int(input("Enter the end of the range: "))
+
+print(start_range <= num <= end_range)
