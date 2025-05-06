@@ -8,6 +8,6 @@ def shutdown():
     elif user_input == "NO":
         print("Abort.")
     else:
-        print("Sorry, I didn't understand your response.Maby try again")
+        print("Sorry, I didn't understand your response.Mabye try again")
 
 shutdown()
