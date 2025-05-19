@@ -1,0 +1,38 @@
+[
+    {
+        "text": "cleaning the house",
+        "done": false
+    },
+    {
+        "text": "get a new pc",
+        "done": false
+    },
+    {
+        "text": "get a new PS5",
+        "done": false
+    },
+    {
+        "text": "make cookies",
+        "done": false
+    },
+    {
+        "text": "call grand mother everyday",
+        "done": false
+    },
+    {
+        "text": "say hi to my freinds",
+        "done": false
+    },
+    {
+        "text": "do my home work",
+        "done": false
+    },
+    {
+        "text": "help my mom around the house",
+        "done": true
+    },
+    {
+        "text": "help my dad",
+        "done": true
+    }
+]
