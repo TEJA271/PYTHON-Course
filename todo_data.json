@@ -1,9 +1,5 @@
 [
     {
-        "text": "cleaning the house",
-        "done": false
-    },
-    {
         "text": "get a new pc",
         "done": false
     },
@@ -28,11 +24,71 @@
         "done": false
     },
     {
-        "text": "help my mom around the house",
-        "done": true
+        "text": "cleaning the dishes",
+        "done": false
     },
     {
-        "text": "help my dad",
-        "done": true
+        "text": "say hello to my freinds",
+        "done": false
+    },
+    {
+        "text": "do my homework",
+        "done": false
+    },
+    {
+        "text": "learn maths",
+        "done": false
+    },
+    {
+        "text": "learn english",
+        "done": false
+    },
+    {
+        "text": "learn ss",
+        "done": false
+    },
+    {
+        "text": "learn gs",
+        "done": false
+    },
+    {
+        "text": "help around the house",
+        "done": false
+    },
+    {
+        "text": "help mom around the house",
+        "done": false
+    },
+    {
+        "text": "help dad",
+        "done": false
+    },
+    {
+        "text": "do some coding",
+        "done": false
+    },
+    {
+        "text": "DO codingal homeworks",
+        "done": false
+    },
+    {
+        "text": "make some projects on my own",
+        "done": false
+    },
+    {
+        "text": "help my teacher",
+        "done": false
+    },
+    {
+        "text": "help my classmates",
+        "done": false
+    },
+    {
+        "text": "do inconmplete notes",
+        "done": false
+    },
+    {
+        "text": "do one fgood deed every day",
+        "done": false
     }
 ]

@@ -17,11 +17,11 @@ def check_guess():
 
 def play_again():
     global number_to_guess
-    number_to_guess = random.randint(1, 100)
-    label.config(text="Guess a number between 1 and 100")
+    number_to_guess = random.randint(1, 5)
+    label.config(text="Guess a number between 1 and 5")
     play_again_button.pack_forget()
 
-number_to_guess = random.randint(1, 100)
+number_to_guess = random.randint(1, 5)
 
 root = tk.Tk()
 root.title("Number Guessing Game")

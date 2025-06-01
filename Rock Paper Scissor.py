@@ -2,7 +2,7 @@ import random
 
 options = ["ROCK","PAPER","SCISSORS"]
 
-user_choice = input("Choose ROCK , PAPER OR SCISSORS :")
+user_choice = input("Choose ROCK , PAPER OR SCISSORS :   ")
 
 computer_choice = random.choice(options)
 
